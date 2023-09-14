@@ -33,6 +33,6 @@ if word[4] == char:
 if instances == 1:
     print(str(instances) + " instance of " + char + " found in " + word) 
 elif instances > 1:
-    print(str(instances) + " instance of " + char + " found in " + word)
+    print(str(instances) + " instances of " + char + " found in " + word)
 else:
     print("No instances of " + char + " found in " + word)
